@@ -9,6 +9,7 @@ public class Members {
 	private String email;
 	private String phoneNumber;
 	private java.sql.Date birthday;
+	private String test;
 
 	private static final SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd");
 
@@ -21,6 +22,13 @@ public class Members {
 			e.printStackTrace();
 			return null;
 		}
+	}
+	public String getTest(){
+		return this.test;
+	}
+
+	public void setTest(String test){
+		this.test = test;
 	}
 
 	public Integer getId() {
