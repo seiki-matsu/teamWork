@@ -9,7 +9,6 @@ public class Members {
 	private String email;
 	private String phoneNumber;
 	private java.sql.Date birthday;
-	private String test;
 
 	private static final SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd");
 
